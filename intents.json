@@ -1,0 +1,48 @@
+{"intents": [
+	{"tag": "greeting",
+	"patterns": ["Hi there", "Is anyone there?", "Hello", "Hola", "Hey", "Good day", "Hi", "Hello there"],
+	"responses": ["Hello! I'm Help Bot", "Good to see you again", "Hi there, How can I help?", "Nice to see you", "Welcome to Face Mask Detection System"],
+	"context": [""]
+	},
+	{"tag": "goodbye",
+	"patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Tata"],
+	"responses": ["See you", "Have a nice day, Bye!", "Bye!, Come back again soon", "Bye!", "See you soon", "I look forward to our next meeting", "Take care"],
+	"context": [""]
+	},
+	{"tag": "thanks",
+	"patterns": ["Thanks", "Thank You", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Ok, Thanks", "Thank you bot", "You are great"],
+	"responses": ["My pleasure", "Happy to help!", "Any time", "Glad to help", "You are welcome", "Do not mention it"],
+	"context": [""]
+	},
+	{"tag": "apology",
+	"patterns": [""],
+	"responses": ["Sorry! can not understand you", "Please give me more info", "I did not understand, I am just a robot doing my best"],
+	"context": [""]
+	},
+	{"tag": "options",
+	"patterns": ["What help you provide?", "What can you do?", "How could you help me?", "What you can do for me?", "How you help me", "How can you help me?", "What services you give", "How can you serve me?", "What do you do?"],
+	"responses": ["I can guide you through the list of names who are involved in this project, prerequisites of the project, uses of Face Mask Detector, and steps to use Face Mask Detector."],
+	"context": [""]
+	},
+	{"tag": "names_involved",
+	"patterns": ["Will you tell me the names of the makers?", "Give me the names who involved in this project", "Who are the creators?", "Who make this project?", "Who are involved in this project?", "By whom this was done?", "I want to know the names of the makers"],
+	"responses": ["Face Mask Detection System is made by Rahul Dhar, Sayantika Chandra, Shuvadip Ghosh, Sneha Das and Sushovan Dey under the mentorship of Prof. Abhijit Sarkar."],
+	"context": [""]
+	},
+	{"tag": "prerequisites",
+	"patterns": ["I want to know the prerequisites", "What are the prerequisites of Face Mask Detector?", "What are the prerequisites?", "What does the project require?", "What is needed to make Face Mask Detection System?", "Which programmming languages are used?", "Tell me about the technology that is used", "Tell me about prerequisites of the project", "Which technology is used?", "What are the programmming languages that are used here?"],
+	"responses": ["The project requires you to have a good knowledge of Python programmming language, deep learning, and image processing."],
+	"context": [""]
+	},
+	{"tag": "uses",
+	"patterns": ["Will you tell me the uses of Face Mask Detector?", "I want to know the uses of it", "What are the application of Face Mask Detection System?", "Tell me the uses of Face Mask Detection System", "What are the benefits of this work?", "Why will I use Face Mask Detection System?", "How Face Mask Detector helps us?", "Give me reasons why I will use it", "Tell me why I use this?"],
+	"responses": ["1. It will be used to detect whether the person is wearing a mask or not"],
+	"context": [""]
+	},
+	{"tag": "steps",
+	"patterns": ["Will you guide me to tell the steps to follow?", "I want to know how to use it", "What are the steps to use Face Mask Detector?", "How can I use this?", "Tell me what are the steps to follow", "Will you help me to find people who are not wearing mask?", "Please help me, how can I use this"],
+	"responses": ["Face Mask Detection System is easy to use. \n1 Press start here in the opening screen "],
+	"context": [""]
+	}
+	]
+}
