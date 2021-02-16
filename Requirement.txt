@@ -1,5 +1,0 @@
-The requirements of the project is 
-1. Python <=3.6
-2. OpenCV
-3. mxnet
-4. Pandas and Numpy
